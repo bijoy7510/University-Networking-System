@@ -1,7 +1,5 @@
 # Southeast University Network Design and Implementation
 
-
-![Network Topology](University%20Networking%20Design%20Diagram.png)
 A complete enterprise campus network design for **Southeast University (SEU)**, built and simulated in **Cisco Packet Tracer**. The project connects four academic departments to a central server farm and delivers secure public web access via Static NAT.
 
 ## 📌 Overview
@@ -23,6 +21,8 @@ A complete enterprise campus network design for **Southeast University (SEU)**, 
 ## 🗺️ Topology
 
 Routers 1–8 are connected sequentially via point-to-point `/30` links. The Server Farm is attached to Router 6, and the external public network (`203.0.113.0/24`) with PC24 is attached to Router 8.
+
+![Network Topology](University%20Networking%20Design%20Diagram.png)
 
 ## 🌐 IP Addressing Summary
 
@@ -94,6 +94,7 @@ ip nat inside source static 192.168.10.227 203.0.113.10
 ## 📂 Repository Contents
 
 - `University Networking System.pkt` — Cisco Packet Tracer project file
+- `University Networking Design Diagram.png` — Network topology diagram
 - `README.md` — Project documentation
 - `LICENSE` — Apache 2.0 License
 
